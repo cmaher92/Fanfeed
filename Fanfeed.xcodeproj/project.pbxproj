@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052549491C48325200BD5EB7 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052549481C48325200BD5EB7 /* TopViewController.swift */; };
+		0525494B1C4B0CDD00BD5EB7 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525494A1C4B0CDD00BD5EB7 /* AddPostViewController.swift */; };
+		055038BC1C2A046D00F31D78 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055038BB1C2A046D00F31D78 /* TopTableViewCell.swift */; };
+		05582A261C1A328A001AFE26 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05582A251C1A328A001AFE26 /* DailyViewController.swift */; };
+		0563F7401C4606F000C194EF /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563F73F1C4606F000C194EF /* Vote.swift */; };
+		0563F7431C46077600C194EF /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563F7421C46077600C194EF /* ApiHelper.swift */; };
+		0563F7471C47141800C194EF /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563F7461C47141800C194EF /* Thumbnail.swift */; };
+		056CC5341C41ABFA005A7912 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056CC5331C41ABFA005A7912 /* User.swift */; };
+		0587A0051C409BF1006C49EA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0587A0041C409BF1006C49EA /* Video.swift */; };
+		0587A0071C40A15F006C49EA /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0587A0061C40A15F006C49EA /* Videos.swift */; };
+		05E2274E1C18DC5700FACB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2274D1C18DC5700FACB66 /* AppDelegate.swift */; };
+		05E227551C18DC5700FACB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E227531C18DC5700FACB66 /* Main.storyboard */; };
+		05E227571C18DC5700FACB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E227561C18DC5700FACB66 /* Assets.xcassets */; };
+		05E2275A1C18DC5700FACB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E227581C18DC5700FACB66 /* LaunchScreen.storyboard */; };
+		05E227651C18DC5700FACB66 /* Fanfeed_ios_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E227641C18DC5700FACB66 /* Fanfeed_ios_clientTests.swift */; };
+		05E227701C18DC5700FACB66 /* Fanfeed_ios_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2276F1C18DC5700FACB66 /* Fanfeed_ios_clientUITests.swift */; };
+		05E2277E1C18FF9200FACB66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2277D1C18FF9200FACB66 /* PostTableViewCell.swift */; };
+		7280827EFA7736A6FADF4381 /* Pods_Fanfeed_ios_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B34737058C4C5AE074E4ED1 /* Pods_Fanfeed_ios_client.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E227611C18DC5700FACB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E227421C18DC5700FACB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E227491C18DC5700FACB66;
+			remoteInfo = "Fanfeed-ios-client";
+		};
+		05E2276C1C18DC5700FACB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E227421C18DC5700FACB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E227491C18DC5700FACB66;
+			remoteInfo = "Fanfeed-ios-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052549481C48325200BD5EB7 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		0525494A1C4B0CDD00BD5EB7 /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		055038BB1C2A046D00F31D78 /* TopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		05582A251C1A328A001AFE26 /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		0563F73F1C4606F000C194EF /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		0563F7421C46077600C194EF /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiHelper.swift; path = Api/ApiHelper.swift; sourceTree = "<group>"; };
+		0563F7461C47141800C194EF /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		056CC5331C41ABFA005A7912 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0587A0041C409BF1006C49EA /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0587A0061C40A15F006C49EA /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		05E2274A1C18DC5700FACB66 /* Fanfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E2274D1C18DC5700FACB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05E227541C18DC5700FACB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05E227561C18DC5700FACB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05E227591C18DC5700FACB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05E2275B1C18DC5700FACB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E227601C18DC5700FACB66 /* Fanfeed.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fanfeed.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E227641C18DC5700FACB66 /* Fanfeed_ios_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fanfeed_ios_clientTests.swift; sourceTree = "<group>"; };
+		05E227661C18DC5700FACB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E2276B1C18DC5700FACB66 /* Fanfeed.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fanfeed.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E2276F1C18DC5700FACB66 /* Fanfeed_ios_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fanfeed_ios_clientUITests.swift; sourceTree = "<group>"; };
+		05E227711C18DC5700FACB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E2277D1C18FF9200FACB66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		7132953F55F5295DC821AA1C /* Pods-Fanfeed-ios-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanfeed-ios-client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fanfeed-ios-client/Pods-Fanfeed-ios-client.debug.xcconfig"; sourceTree = "<group>"; };
+		7B34737058C4C5AE074E4ED1 /* Pods_Fanfeed_ios_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fanfeed_ios_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4847995F2E0AFCFACC9BAA8 /* Pods-Fanfeed-ios-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanfeed-ios-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fanfeed-ios-client/Pods-Fanfeed-ios-client.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E227471C18DC5700FACB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7280827EFA7736A6FADF4381 /* Pods_Fanfeed_ios_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E2275D1C18DC5700FACB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E227681C18DC5700FACB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0563F7411C46070900C194EF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0563F73F1C4606F000C194EF /* Vote.swift */,
+				0587A0061C40A15F006C49EA /* Videos.swift */,
+				0563F7461C47141800C194EF /* Thumbnail.swift */,
+				0563F7421C46077600C194EF /* ApiHelper.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		0563F7441C46098D00C194EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0587A0041C409BF1006C49EA /* Video.swift */,
+				056CC5331C41ABFA005A7912 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0563F7451C4609BC00C194EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05E2277D1C18FF9200FACB66 /* PostTableViewCell.swift */,
+				055038BB1C2A046D00F31D78 /* TopTableViewCell.swift */,
+				05582A251C1A328A001AFE26 /* DailyViewController.swift */,
+				0525494A1C4B0CDD00BD5EB7 /* AddPostViewController.swift */,
+				052549481C48325200BD5EB7 /* TopViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		05E227411C18DC5700FACB66 = {
+			isa = PBXGroup;
+			children = (
+				05E2274C1C18DC5700FACB66 /* Fanfeed-ios-client */,
+				05E227631C18DC5700FACB66 /* Fanfeed-ios-clientTests */,
+				05E2276E1C18DC5700FACB66 /* Fanfeed-ios-clientUITests */,
+				05E2274B1C18DC5700FACB66 /* Products */,
+				F6E40D1BCAA6905776C397BC /* Pods */,
+				4DD39CA329EA5F797B42496D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05E2274B1C18DC5700FACB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E2274A1C18DC5700FACB66 /* Fanfeed.app */,
+				05E227601C18DC5700FACB66 /* Fanfeed.xctest */,
+				05E2276B1C18DC5700FACB66 /* Fanfeed.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E2274C1C18DC5700FACB66 /* Fanfeed-ios-client */ = {
+			isa = PBXGroup;
+			children = (
+				05E2274D1C18DC5700FACB66 /* AppDelegate.swift */,
+				05E227531C18DC5700FACB66 /* Main.storyboard */,
+				0563F7451C4609BC00C194EF /* ViewControllers */,
+				0563F7411C46070900C194EF /* Api */,
+				0563F7441C46098D00C194EF /* Models */,
+				05E227561C18DC5700FACB66 /* Assets.xcassets */,
+				05E227581C18DC5700FACB66 /* LaunchScreen.storyboard */,
+				05E2275B1C18DC5700FACB66 /* Info.plist */,
+			);
+			path = "Fanfeed-ios-client";
+			sourceTree = "<group>";
+		};
+		05E227631C18DC5700FACB66 /* Fanfeed-ios-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				05E227641C18DC5700FACB66 /* Fanfeed_ios_clientTests.swift */,
+				05E227661C18DC5700FACB66 /* Info.plist */,
+			);
+			path = "Fanfeed-ios-clientTests";
+			sourceTree = "<group>";
+		};
+		05E2276E1C18DC5700FACB66 /* Fanfeed-ios-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05E2276F1C18DC5700FACB66 /* Fanfeed_ios_clientUITests.swift */,
+				05E227711C18DC5700FACB66 /* Info.plist */,
+			);
+			path = "Fanfeed-ios-clientUITests";
+			sourceTree = "<group>";
+		};
+		4DD39CA329EA5F797B42496D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B34737058C4C5AE074E4ED1 /* Pods_Fanfeed_ios_client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E40D1BCAA6905776C397BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7132953F55F5295DC821AA1C /* Pods-Fanfeed-ios-client.debug.xcconfig */,
+				C4847995F2E0AFCFACC9BAA8 /* Pods-Fanfeed-ios-client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E227491C18DC5700FACB66 /* Fanfeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E227741C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "Fanfeed" */;
+			buildPhases = (
+				9166EB1D1656F286D7621A84 /* Check Pods Manifest.lock */,
+				05E227461C18DC5700FACB66 /* Sources */,
+				05E227471C18DC5700FACB66 /* Frameworks */,
+				05E227481C18DC5700FACB66 /* Resources */,
+				C7D7EAB58046D7DDA93DBD4C /* Embed Pods Frameworks */,
+				B45DB9136D5CCFF25AF230BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fanfeed;
+			productName = "Fanfeed-ios-client";
+			productReference = 05E2274A1C18DC5700FACB66 /* Fanfeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05E2275F1C18DC5700FACB66 /* FanfeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E227771C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "FanfeedTests" */;
+			buildPhases = (
+				05E2275C1C18DC5700FACB66 /* Sources */,
+				05E2275D1C18DC5700FACB66 /* Frameworks */,
+				05E2275E1C18DC5700FACB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E227621C18DC5700FACB66 /* PBXTargetDependency */,
+			);
+			name = FanfeedTests;
+			productName = "Fanfeed-ios-clientTests";
+			productReference = 05E227601C18DC5700FACB66 /* Fanfeed.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05E2276A1C18DC5700FACB66 /* FanfeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E2277A1C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "FanfeedUITests" */;
+			buildPhases = (
+				05E227671C18DC5700FACB66 /* Sources */,
+				05E227681C18DC5700FACB66 /* Frameworks */,
+				05E227691C18DC5700FACB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E2276D1C18DC5700FACB66 /* PBXTargetDependency */,
+			);
+			name = FanfeedUITests;
+			productName = "Fanfeed-ios-clientUITests";
+			productReference = 05E2276B1C18DC5700FACB66 /* Fanfeed.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E227421C18DC5700FACB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Fanfeed, Inc.";
+				TargetAttributes = {
+					05E227491C18DC5700FACB66 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = K7D9888487;
+					};
+					05E2275F1C18DC5700FACB66 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = K7D9888487;
+						TestTargetID = 05E227491C18DC5700FACB66;
+					};
+					05E2276A1C18DC5700FACB66 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = K7D9888487;
+						TestTargetID = 05E227491C18DC5700FACB66;
+					};
+				};
+			};
+			buildConfigurationList = 05E227451C18DC5700FACB66 /* Build configuration list for PBXProject "Fanfeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05E227411C18DC5700FACB66;
+			productRefGroup = 05E2274B1C18DC5700FACB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E227491C18DC5700FACB66 /* Fanfeed */,
+				05E2275F1C18DC5700FACB66 /* FanfeedTests */,
+				05E2276A1C18DC5700FACB66 /* FanfeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E227481C18DC5700FACB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E2275A1C18DC5700FACB66 /* LaunchScreen.storyboard in Resources */,
+				05E227571C18DC5700FACB66 /* Assets.xcassets in Resources */,
+				05E227551C18DC5700FACB66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E2275E1C18DC5700FACB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E227691C18DC5700FACB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9166EB1D1656F286D7621A84 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B45DB9136D5CCFF25AF230BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fanfeed-ios-client/Pods-Fanfeed-ios-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D7EAB58046D7DDA93DBD4C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fanfeed-ios-client/Pods-Fanfeed-ios-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E227461C18DC5700FACB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E2274E1C18DC5700FACB66 /* AppDelegate.swift in Sources */,
+				05E2277E1C18FF9200FACB66 /* PostTableViewCell.swift in Sources */,
+				052549491C48325200BD5EB7 /* TopViewController.swift in Sources */,
+				05582A261C1A328A001AFE26 /* DailyViewController.swift in Sources */,
+				0525494B1C4B0CDD00BD5EB7 /* AddPostViewController.swift in Sources */,
+				0563F7431C46077600C194EF /* ApiHelper.swift in Sources */,
+				0563F7401C4606F000C194EF /* Vote.swift in Sources */,
+				0587A0071C40A15F006C49EA /* Videos.swift in Sources */,
+				055038BC1C2A046D00F31D78 /* TopTableViewCell.swift in Sources */,
+				0587A0051C409BF1006C49EA /* Video.swift in Sources */,
+				0563F7471C47141800C194EF /* Thumbnail.swift in Sources */,
+				056CC5341C41ABFA005A7912 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E2275C1C18DC5700FACB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E227651C18DC5700FACB66 /* Fanfeed_ios_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E227671C18DC5700FACB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E227701C18DC5700FACB66 /* Fanfeed_ios_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05E227621C18DC5700FACB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E227491C18DC5700FACB66 /* Fanfeed */;
+			targetProxy = 05E227611C18DC5700FACB66 /* PBXContainerItemProxy */;
+		};
+		05E2276D1C18DC5700FACB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E227491C18DC5700FACB66 /* Fanfeed */;
+			targetProxy = 05E2276C1C18DC5700FACB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05E227531C18DC5700FACB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E227541C18DC5700FACB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05E227581C18DC5700FACB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E227591C18DC5700FACB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05E227721C18DC5700FACB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05E227731C18DC5700FACB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E227751C18DC5700FACB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7132953F55F5295DC821AA1C /* Pods-Fanfeed-ios-client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fanfeed-ios-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.Fanfeed;
+				PRODUCT_NAME = Fanfeed;
+			};
+			name = Debug;
+		};
+		05E227761C18DC5700FACB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4847995F2E0AFCFACC9BAA8 /* Pods-Fanfeed-ios-client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fanfeed-ios-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.Fanfeed;
+				PRODUCT_NAME = Fanfeed;
+			};
+			name = Release;
+		};
+		05E227781C18DC5700FACB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fanfeed-ios-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.Fanfeed-ios-clientTests";
+				PRODUCT_NAME = Fanfeed;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfeed.app/Fanfeed";
+			};
+			name = Debug;
+		};
+		05E227791C18DC5700FACB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fanfeed-ios-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.Fanfeed-ios-clientTests";
+				PRODUCT_NAME = Fanfeed;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfeed.app/Fanfeed";
+			};
+			name = Release;
+		};
+		05E2277B1C18DC5700FACB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				INFOPLIST_FILE = "Fanfeed-ios-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.Fanfeed-ios-clientUITests";
+				PRODUCT_NAME = Fanfeed;
+				TEST_TARGET_NAME = "Fanfeed-ios-client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05E2277C1C18DC5700FACB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fanfeed-ios-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF.Fanfeed-ios-clientUITests";
+				PRODUCT_NAME = Fanfeed;
+				TEST_TARGET_NAME = "Fanfeed-ios-client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E227451C18DC5700FACB66 /* Build configuration list for PBXProject "Fanfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E227721C18DC5700FACB66 /* Debug */,
+				05E227731C18DC5700FACB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E227741C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "Fanfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E227751C18DC5700FACB66 /* Debug */,
+				05E227761C18DC5700FACB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E227771C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "FanfeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E227781C18DC5700FACB66 /* Debug */,
+				05E227791C18DC5700FACB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E2277A1C18DC5700FACB66 /* Build configuration list for PBXNativeTarget "FanfeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E2277B1C18DC5700FACB66 /* Debug */,
+				05E2277C1C18DC5700FACB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05E227421C18DC5700FACB66 /* Project object */;
+}
